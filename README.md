@@ -1,4 +1,4 @@
-# Arcade Exchange Management System 🕹️
+# Arcade Exchange Management System 
 
 A desktop application for managing an "Arcade Exchange" store, built with **Java Swing** for the graphical user interface (GUI) and **JDBC** for database connectivity. The application features a retro, neon-themed UI and allows an administrator to perform various CRUD (Create, Read, Update, Delete) operations on customers, games, purchases, and reviews.
 
@@ -7,7 +7,7 @@ A desktop application for managing an "Arcade Exchange" store, built with **Java
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Key Features](#-key-features)
 - [Tech Stack](#-tech-stack)
@@ -24,7 +24,7 @@ A desktop application for managing an "Arcade Exchange" store, built with **Java
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 -   **Retro-Styled GUI:** A visually appealing interface built with Java Swing, featuring a dark theme, neon colors, and custom fonts to evoke a classic arcade feel.
 -   **Customer Management:** Add new customers and view a list of all existing customers.
@@ -38,7 +38,7 @@ A desktop application for managing an "Arcade Exchange" store, built with **Java
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Programming Language:** Java
 -   **GUI Framework:** Java Swing
@@ -47,7 +47,7 @@ A desktop application for managing an "Arcade Exchange" store, built with **Java
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 The application relies on a MySQL database named `arcade_exchange_db`. Below is the required schema, including tables and triggers for automatic data management.
 
@@ -106,7 +106,7 @@ CREATE TABLE transaction (
 
 
 ---
-### 🗄️ Triggers
+### Triggers
 
 These triggers automate important business logic directly within the database.
 
@@ -150,7 +150,7 @@ These triggers automate important business logic directly within the database.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to get the project running on your local machine.
 
@@ -192,7 +192,7 @@ static final String DB_URL = "jdbc:mysql://localhost:3306/arcade_exchange_db";
 static final String USER = "your_mysql_username"; // Change this
 static final String PASS = "your_mysql_password"; // Change this
 
-## ▶️ How to Run
+## How to Run
 
 After completing the setup:
 1.  Navigate to the `Main.java` file in your IDE.
@@ -202,7 +202,7 @@ After completing the setup:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 -   **Refactor Database Credentials:** Move hard-coded credentials out of the source code and into a separate `config.properties` file for better security and configuration management.
 -   **Error Handling:** Improve user-facing error messages for database and input validation errors.
