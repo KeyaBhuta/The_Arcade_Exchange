@@ -3,7 +3,7 @@
 A desktop application for managing an "Arcade Exchange" store, built with **Java Swing** for the graphical user interface (GUI) and **JDBC** for database connectivity. The application features a retro, neon-themed UI and allows an administrator to perform various CRUD (Create, Read, Update, Delete) operations on customers, games, purchases, and reviews.
 
 
-*(**Note:** Replace the image above with a real screenshot of your application!)*
+
 
 ---
 
